@@ -6,26 +6,29 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = 0;
-console.log(cityIndex); // Output: 4
+let index = city.indexOf('Y')
+console.log(index)
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
-console.log(citySubstring); // Output: "York"
+let sottostringa = city.slice(4,8)
+console.log(sottostringa)
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = '';
-console.log(cityReplaced); // Output:  "New Delhi"
+ // Output:  "New Delhi"
+ let sostituzione = city.replace('York', 'Delhi')
+ console.log(sostituzione)
 
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = '';
-console.log(cityNameConcat); // Output: "New York City"
+ // Output: "New York City"
+ let cityy = 'City'
+ console.log(`${city}` + ` ${cityy}`) 
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = '';
-console.log(upperCaseHello); // Output: "HELLO"
+// Output: "HELLO"
+let maiuscolo = hello.toUpperCase()
+console.log(maiuscolo)
